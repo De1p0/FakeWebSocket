@@ -1,0 +1,17 @@
+{
+  "name": "socketserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsup ./src --watch || true",
+    "build": "tsup ./src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^6.0.2"
+  }
+}
